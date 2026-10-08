@@ -2,3 +2,11 @@
 /lab4/target/
 /lab3/target/
 /Assignment/target/
+
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear

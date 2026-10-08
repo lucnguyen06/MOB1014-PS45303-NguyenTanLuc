@@ -1,0 +1,13 @@
+3
+PS001
+Nguyen Van An
+20
+8.5
+PS002
+Tran Thi Binh
+21
+9.2
+PS003
+Le Van Cuong
+19
+9.2
