@@ -19,7 +19,7 @@ public class NhapXuatLaptop {
         String tiepTuc;
 
         do {
-            // Tao doi tuong moi cho moi laptop
+
             Laptop laptop = new Laptop();
             laptop.input(sc);
             list.add(laptop);

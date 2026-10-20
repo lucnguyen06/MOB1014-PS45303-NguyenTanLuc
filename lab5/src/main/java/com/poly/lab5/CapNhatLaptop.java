@@ -23,7 +23,6 @@ public class CapNhatLaptop {
 
         Scanner sc = new Scanner(System.in);
 
-        // 1. Nhap ID can sua va ten moi
         System.out.print("Nhap ID laptop can sua: ");
         String id = sc.nextLine();
         System.out.print("Nhap ten moi: ");
@@ -44,7 +43,6 @@ public class CapNhatLaptop {
             System.out.println("Khong tim thay laptop co ID " + id);
         }
 
-        // 2. Xoa cac laptop het hang (quantity == 0) bang cach duyet nguoc
         int countXoa = 0;
         for (int i = list.size() - 1; i >= 0; i--) {
             if (list.get(i).getQuantity() == 0) {
@@ -54,7 +52,6 @@ public class CapNhatLaptop {
         }
         System.out.println("Da xoa " + countXoa + " laptop het hang");
 
-        // 3. Xuat danh sach sau khi cap nhat va xoa
         System.out.println("=== DANH SACH SAU CAP NHAT (" + list.size() + " may) ===");
         for (Laptop laptop : list) {
             laptop.output();

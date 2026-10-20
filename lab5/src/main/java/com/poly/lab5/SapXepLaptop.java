@@ -22,7 +22,6 @@ public class SapXepLaptop {
         list.add(new Laptop("LT04", "Lenovo Legion 5", "Gaming", 32500000, 0));
         list.add(new Laptop("LT05", "HP Pavilion 14", "Van phong", 17800000, 0));
 
-        // 1. Sap xep theo name tang dan (A-Z) bang Bubble Sort tu viet dung compareToIgnoreCase()
         int n = list.size();
         for (int i = 0; i < n - 1; i++) {
             for (int j = 0; j < n - i - 1; j++) {
@@ -39,7 +38,6 @@ public class SapXepLaptop {
             laptop.output();
         }
 
-        // 2. Sap xep theo price giam dan bang Collections.sort() voi Comparator tang dan, sau do Collections.reverse()
         Collections.sort(list, new Comparator<Laptop>() {
             @Override
             public int compare(Laptop o1, Laptop o2) {

@@ -23,7 +23,6 @@ public class TimKiemLaptop {
 
         Scanner sc = new Scanner(System.in);
 
-        // 1. Loc theo khoang gia
         System.out.print("Nhap gia min: ");
         double min = sc.nextDouble();
         System.out.print("Nhap gia max: ");
@@ -46,7 +45,6 @@ public class TimKiemLaptop {
             }
         }
 
-        // 2. Tim kiem theo tu khoa (id hoac ten)
         System.out.print("Nhap tu khoa tim kiem: ");
         String keyword = sc.nextLine();
 
